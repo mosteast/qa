@@ -1,6 +1,6 @@
-import { T_result } from './type';
+import { T_result_mark } from './type';
 
-export class Result implements T_result {
+export class Result implements T_result_mark {
   data: any;
   message!: string;
 
